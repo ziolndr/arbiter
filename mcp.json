@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "arbiter": {
+      "url": "https://api.grip.fyi/mcp"
+    }
+  }
+}
