@@ -359,3 +359,25 @@ https://api.grip.fyi/AGENTS.md
 # ARBITER
 
 **Deterministic contextual control flow, arbitration, and persistent machine representation for autonomous software.**
+
+<!-- ARBITER_AGENT_SKILL_BEGIN -->
+## Agent Skill
+
+ARBITER publishes an Agent Skill for agents that already have a declared world
+and a finite caller-supplied candidate field and need deterministic contextual
+ranking.
+
+Install:
+
+```bash
+npx skills add https://github.com/ziolndr/arbiter --skill arbiter-field-ranking
+```
+
+Skill source:
+
+`.agents/skills/arbiter-field-ranking/SKILL.md`
+
+Canonical MCP identity: `fyi.grip/arbiter`
+
+Remote MCP: `https://api.grip.fyi/mcp`
+<!-- ARBITER_AGENT_SKILL_END -->
